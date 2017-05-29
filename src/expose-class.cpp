@@ -1,6 +1,8 @@
 #include <Rcpp.h>
 
-class Test {
+
+// class or struct is okay
+struct Test {
 public:
   Test(int x): x_(x) {}
   int getValue() { return x_; }
