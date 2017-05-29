@@ -27,3 +27,9 @@ void R_init_rpacktest(DllInfo *dll)
   R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
   R_useDynamicSymbols(dll, FALSE);
 }
+
+
+
+/*
+Great thanks: http://rcpp-devel.r-forge.r-project.narkive.com/iyPEiEs7/symbol-registration-in-packages-with-module-classes
+*/
