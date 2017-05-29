@@ -1,6 +1,6 @@
 #include <Rcpp.h>
 #include <string>
-#include "useHeader.hpp"
+#include "useHeader.h"
 
 
 //' Declares that I read a famous textbook.

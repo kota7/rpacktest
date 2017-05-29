@@ -1,5 +1,5 @@
 #include <Rcpp.h>
-#include "useHeader.hpp"
+#include "useHeader.h"
 
 
 Book::Book(std::string a, std::string t)
